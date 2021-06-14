@@ -1,0 +1,7 @@
+useDynLib(exactRra, .registration=TRUE)
+export(.stat_table)
+export(.stat_table_memoized)
+export(compute_pbeta_table)
+export(exact_rra_pval)
+export(matrix_binary_search)
+importFrom(Rcpp, evalCpp)

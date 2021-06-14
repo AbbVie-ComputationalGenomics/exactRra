@@ -1,0 +1,11 @@
+Package: exactRra
+Type: Package
+Title: Fast computation of exact RRA P values
+Version: 0.0.1
+Date: 2020-11-05
+Author: Yilong Li
+Maintainer: Yilong Li <yilong.li@abbvie.com>
+Description: This package provides a fast function for computing exact robust rank aggregation P values.
+Imports: Rcpp (>= 1.0.5)
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
